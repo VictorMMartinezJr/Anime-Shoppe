@@ -6,6 +6,7 @@ import ShopAll from './components/ShopPages/ShopAll';
 import ShopMens from './components/ShopPages/ShopMens';
 import ShopWomens from './components/ShopPages/ShopWomens';
 import ShopAccessories from './components/ShopPages/ShopAccessories';
+import CartPage from './components/ShopPages/CartPage/CartPage';
 
 function App() {
   return (
@@ -25,6 +26,9 @@ function App() {
             </Route>
             <Route exact path='/accessories'>
               <ShopAccessories />
+            </Route>
+            <Route exact path='/cart'>
+              <CartPage />
             </Route>
           </Switch>
         </Context>
