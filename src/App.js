@@ -4,6 +4,7 @@ import { Context } from './context/Context';
 import Navbar from './components/Navbar/Navbar';
 import ShopAll from './components/ShopPages/ShopAll';
 import ShopMens from './components/ShopPages/ShopMens';
+import ShopWomens from './components/ShopPages/ShopWomens';
 
 function App() {
   return (
@@ -17,6 +18,9 @@ function App() {
             </Route>
             <Route exact path='/mens'>
               <ShopMens />
+            </Route>
+            <Route exact path='/womens'>
+              <ShopWomens />
             </Route>
           </Switch>
         </Context>
