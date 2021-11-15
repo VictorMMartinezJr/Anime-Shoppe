@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Context } from './context/Context';
 import Navbar from './components/Navbar/Navbar';
 import ShopAll from './components/ShopPages/ShopAll';
+import ShopMens from './components/ShopPages/ShopMens';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
           <Switch>
             <Route exact path='/'>
               <ShopAll />
+            </Route>
+            <Route exact path='/mens'>
+              <ShopMens />
             </Route>
           </Switch>
         </Context>

@@ -5,9 +5,9 @@ import SingleProduct from '../SingleProduct/SingleProduct';
 import AddMoreBtn from '../Buttons/AddMoreBtn';
 import ScrollToTopBtn from '../Buttons/ScrollToTop';
 import Form from '../Form/Form';
-import { allProducts } from '../Products/Products';
+import { mensProducts } from '../Products/Products';
 
-const ShopAll = () => {
+const MensShop = () => {
     const { productState: { searchQuery, sort }, productDispatch } = useContext(Cart);
 
     // number of products per load
@@ -15,10 +15,10 @@ const ShopAll = () => {
 
     // transform current products 
     const transformProducts = () => {
-        let sortedProducts = [...allProducts];
+        let sortedProducts = [...mensProducts];
 
         if (sort === ' ') {
-            sortedProducts = allProducts;
+            sortedProducts = mensProducts;
         }
 
         if (sort === true) {
@@ -34,7 +34,7 @@ const ShopAll = () => {
         }
 
         if (searchQuery) {
-            sortedProducts = allProducts.filter(prod => prod.name.toLowerCase().includes(searchQuery.toLowerCase()))
+            sortedProducts = mensProducts.filter(prod => prod.name.toLowerCase().includes(searchQuery.toLowerCase()))
         }
 
         return sortedProducts;
@@ -43,6 +43,7 @@ const ShopAll = () => {
     return (
         <section className='shop'>
             <Form productDispatch={productDispatch} />
+
             <div className="products">
                 {transformProducts && !searchQuery && transformProducts().slice(0, addProducts).map(prod => {
                     return <SingleProduct key={prod.id} {...prod} product={prod} />
@@ -52,11 +53,11 @@ const ShopAll = () => {
                     return <SingleProduct key={prod.id} {...prod} product={prod} />
 
                 })}
-                {addProducts >= allProducts.length && <ScrollToTopBtn />}
+                {addProducts >= mensProducts.length && <ScrollToTopBtn />}
             </div>
-            {!searchQuery && <AddMoreBtn setAddProducts={setAddProducts} addProducts={addProducts} products={allProducts} />}
+            {!searchQuery && <AddMoreBtn setAddProducts={setAddProducts} addProducts={addProducts} products={mensProducts} />}
         </section>
     )
 }
 
-export default ShopAll;
+export default MensShop;
