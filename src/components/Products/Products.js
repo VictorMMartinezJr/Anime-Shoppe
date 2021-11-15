@@ -1,7 +1,7 @@
 export const allProducts = [
     {
         id: 1,
-        name: 'Killua Eye Blue & Black Hoodie',
+        name: 'Hunter x Hunter Killua Eye Blue & Black Hoodie',
         price: '70.00',
         inStock: true,
         fastDelivery: false,
@@ -37,7 +37,7 @@ export const allProducts = [
     },
     {
         id: 20,
-        name: 'Hypland x Hunter x Hunter Hisoka Eye Lavender T-Shirt',
+        name: 'Hunter x Hunter Hisoka Eye Lavender T-Shirt',
         price: '29.95',
         inStock: true,
         fastDelivery: true,
@@ -46,7 +46,7 @@ export const allProducts = [
     },
     {
         id: 43,
-        name: 'Rengoku 1/8 Scale Figure',
+        name: 'Demon Slayer: Rengoku 1/8 Scale Figure',
         price: '80.99',
         inStock: true,
         fastDelivery: true,
@@ -64,7 +64,7 @@ export const allProducts = [
     },
     {
         id: 45,
-        name: 'Funko POP! Animation: Naruto Pain 5-in Vinyl Figure',
+        name: 'Funko POP! Naruto Pain Vinyl Figure',
         price: '11.99',
         inStock: true,
         fastDelivery: true,
@@ -91,7 +91,7 @@ export const allProducts = [
     },
     {
         id: 21,
-        name: 'Studio Ghibli Ponyo Color- Block Girls Hoodie',
+        name: 'Studio Ghibli Ponyo Color Block Girls Hoodie',
         price: '49.99',
         inStock: true,
         fastDelivery: false,
@@ -109,7 +109,7 @@ export const allProducts = [
     },
     {
         id: 46,
-        name: 'SEGA Demon Slayer: Tanjiro Kamado Figure',
+        name: 'Demon Slayer: Tanjiro Kamado Figure',
         price: '28.99',
         inStock: true,
         fastDelivery: true,
@@ -145,7 +145,7 @@ export const allProducts = [
     },
     {
         id: 47,
-        name: 'Funko Yu Yu Hakusho: Ghost Files Pop! Animation Yoko Kurama Vinyl Figure Hot Topic Exclusive',
+        name: 'Funko Pop! Inuyasha Yoko Kurama Vinyl Figure',
         price: '12.50',
         inStock: true,
         fastDelivery: false,
@@ -198,7 +198,7 @@ export const allProducts = [
     },
     {
         id: 9,
-        name: 'The Big Nyaruto Series Kakashi T-Shirt',
+        name: 'The Big Nyaruto Series Naruto Kakashi T-Shirt',
         price: '11.99',
         inStock: true,
         fastDelivery: true,
@@ -207,7 +207,7 @@ export const allProducts = [
     },
     {
         id: 49,
-        name: 'Bandai Demon Slayer: Kimetsu no Yaiba Figuarts Mini Little Nezuko 3-In Figure',
+        name: 'Demon Slayer: Kimetsu no Yaiba Figuarts Mini Little Nezuko 3-In Figure',
         price: '29.99',
         inStock: true,
         fastDelivery: true,
@@ -225,7 +225,7 @@ export const allProducts = [
     },
     {
         id: 50,
-        name: 'ABYstyle Dragon Ball Z 1 Star Dragon Ball with Base',
+        name: 'Dragon Ball Z 1 Star Dragon Ball with Base',
         price: '21.24',
         inStock: true,
         fastDelivery: false,
@@ -270,7 +270,7 @@ export const allProducts = [
     },
     {
         id: 29,
-        name: 'Sakura Tea Tie-Dye Girls T-Shirt',
+        name: 'Naruto: Sakura Tea Tie-Dye Girls T-Shirt',
         price: '18.91',
         inStock: true,
         fastDelivery: false,
@@ -297,7 +297,7 @@ export const allProducts = [
     },
     {
         id: 53,
-        name: 'Super Saiyan Goku Dragon Stars Series Power Up Pack 6.5-in Action Figure',
+        name: 'Dragon Ball Z Super Saiyan Goku Dragon Stars Series Action Figure',
         price: '24.99',
         inStock: true,
         fastDelivery: true,
@@ -324,7 +324,7 @@ export const allProducts = [
     },
     {
         id: 55,
-        name: 'Inosuke Action Figure',
+        name: 'Demon Slayer: Inosuke Action Figure',
         price: '49.99',
         inStock: true,
         fastDelivery: false,
@@ -333,7 +333,7 @@ export const allProducts = [
     },
     {
         id: 56,
-        name: 'Sasuke Uchiha Anime Heroes 6.5-in Action Figure',
+        name: 'Naruto Sasuke Uchiha Anime Heroes Action Figure',
         price: '18.99',
         inStock: true,
         fastDelivery: false,
@@ -450,7 +450,7 @@ export const allProducts = [
     },
     {
         id: 57,
-        name: 'FiGPiN Naruto Shippuden 744 Sasori 3-In',
+        name: 'FiGPiN Naruto Shippuden 744 Sasori',
         price: '11.99',
         inStock: true,
         fastDelivery: true,
@@ -597,7 +597,7 @@ export const allProducts = [
 export const mensProducts = [
     {
         id: 1,
-        name: 'Killua Eye Blue & Black Hoodie',
+        name: 'Hunter x Hunter Killua Eye Blue & Black Hoodie',
         price: '70.00',
         inStock: true,
         fastDelivery: false,
@@ -669,7 +669,7 @@ export const mensProducts = [
     },
     {
         id: 9,
-        name: 'The Big Nyaruto Series Kakashi T-Shirt',
+        name: 'The Big Nyaruto Series Naruto Kakashi T-Shirt',
         price: '11.99',
         inStock: true,
         fastDelivery: true,
@@ -771,7 +771,7 @@ export const mensProducts = [
 export const womensProducts = [
     {
         id: 20,
-        name: 'Hypland x Hunter x Hunter Hisoka Eye Lavender T-Shirt',
+        name: 'Hunter x Hunter Hisoka Eye Lavender T-Shirt',
         price: '29.95',
         inStock: true,
         fastDelivery: true,
@@ -852,7 +852,7 @@ export const womensProducts = [
     },
     {
         id: 29,
-        name: 'Sakura Tea Tie-Dye Girls T-Shirt',
+        name: 'Naruto Sakura Tea Tie-Dye Girls T-Shirt',
         price: '18.91',
         inStock: true,
         fastDelivery: false,
@@ -981,7 +981,7 @@ export const accessories = [
     },
     {
         id: 43,
-        name: 'Rengoku 1/8 Scale Figure',
+        name: 'Demon Slayer: Rengoku 1/8 Scale Figure',
         price: '80.99',
         inStock: true,
         fastDelivery: true,
@@ -999,7 +999,7 @@ export const accessories = [
     },
     {
         id: 45,
-        name: 'Funko POP! Animation: Naruto Pain 5-in Vinyl Figure',
+        name: 'Funko POP! Animation: Naruto Pain Vinyl Figure',
         price: '11.99',
         inStock: true,
         fastDelivery: true,
@@ -1008,7 +1008,7 @@ export const accessories = [
     },
     {
         id: 46,
-        name: 'SEGA Demon Slayer: Tanjiro Kamado Figure',
+        name: 'Demon Slayer: Tanjiro Kamado Figure',
         price: '28.99',
         inStock: true,
         fastDelivery: true,
@@ -1017,7 +1017,7 @@ export const accessories = [
     },
     {
         id: 47,
-        name: 'Funko Yu Yu Hakusho: Ghost Files Pop! Animation Yoko Kurama Vinyl Figure Hot Topic Exclusive',
+        name: 'Funko Pop! Inuyasha Yoko Kurama Vinyl Figure',
         price: '12.50',
         inStock: true,
         fastDelivery: false,
@@ -1034,7 +1034,7 @@ export const accessories = [
     },
     {
         id: 49,
-        name: 'Bandai Demon Slayer: Kimetsu no Yaiba Figuarts Mini Little Nezuko 3-In Figure',
+        name: 'Demon Slayer: Kimetsu no Yaiba Figuarts Mini Little Nezuko 3-In Figure',
         price: '29.99',
         inStock: true,
         fastDelivery: true,
@@ -1043,7 +1043,7 @@ export const accessories = [
     },
     {
         id: 50,
-        name: 'ABYstyle Dragon Ball Z 1 Star Dragon Ball with Base',
+        name: 'Dragon Ball Z 1 Star Dragon Ball with Base',
         price: '21.24',
         inStock: true,
         fastDelivery: false,
@@ -1070,7 +1070,7 @@ export const accessories = [
     },
     {
         id: 53,
-        name: 'Super Saiyan Goku Dragon Stars Series Power Up Pack 6.5-in Action Figure',
+        name: 'Dragon Ball Z Super Saiyan Goku Dragon Stars Series Action Figure',
         price: '24.99',
         inStock: true,
         fastDelivery: true,
@@ -1088,7 +1088,7 @@ export const accessories = [
     },
     {
         id: 55,
-        name: 'Inosuke Action Figure',
+        name: 'Demon Slayer: Inosuke Action Figure',
         price: '49.99',
         inStock: true,
         fastDelivery: false,
@@ -1097,7 +1097,7 @@ export const accessories = [
     },
     {
         id: 56,
-        name: 'Sasuke Uchiha Anime Heroes 6.5-in Action Figure',
+        name: 'Naruto Sasuke Uchiha Anime Heroes 6.5-in Action Figure',
         price: '18.99',
         inStock: true,
         fastDelivery: false,
@@ -1106,7 +1106,7 @@ export const accessories = [
     },
     {
         id: 57,
-        name: 'FiGPiN Naruto Shippuden 744 Sasori 3-In',
+        name: 'FiGPiN Naruto Shippuden 744 Sasori',
         price: '11.99',
         inStock: true,
         fastDelivery: true,
