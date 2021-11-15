@@ -1,7 +1,8 @@
 import './App.css';
 import { BrowserRouter as Router, Switch, Route } from 'react-router-dom';
 import { Context } from './context/Context';
-import Navbar from './context/Navbar/Navbar';
+import Navbar from './components/Navbar/Navbar';
+import ShopAll from './components/ShopPages/ShopAll';
 
 function App() {
   return (
@@ -10,8 +11,8 @@ function App() {
         <Context>
           <Navbar />
           <Switch>
-            <Route>
-
+            <Route exact path='/'>
+              <ShopAll />
             </Route>
           </Switch>
         </Context>

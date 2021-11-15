@@ -1,4 +1,4 @@
-import SortBtn from '../SortBtn/SortBtn';
+import SortBtn from '../Buttons/Sort/SortBtn';
 import './Form.css';
 import { useState } from 'react';
 

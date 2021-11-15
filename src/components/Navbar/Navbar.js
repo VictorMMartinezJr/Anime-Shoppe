@@ -1,12 +1,13 @@
 import './Navbar.css';
 import { useContext, useState } from 'react';
-import { Cart } from '../Context';
+import { Cart } from '../../context/Context';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
     const { state: { cart }, dispatch, productDispatch } = useContext(Cart);
     const [dropdownActive, setDropdownActive] = useState(false);
     const [burgerActive, setBurgerActive] = useState(false);
+
     return (
         <nav className='nav'>
             <div className="nav-top">
