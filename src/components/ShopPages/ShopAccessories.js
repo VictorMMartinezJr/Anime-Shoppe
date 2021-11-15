@@ -5,9 +5,9 @@ import SingleProduct from '../SingleProduct/SingleProduct';
 import AddMoreBtn from '../Buttons/AddMoreBtn';
 import ScrollToTopBtn from '../Buttons/ScrollToTop';
 import Form from '../Form/Form';
-import { womensProducts } from '../Products/Products';
+import { accessories } from '../Products/Products';
 
-const ShopWomens = () => {
+const ShopAccessories = () => {
     const { productState: { searchQuery, sort }, productDispatch } = useContext(Cart);
 
     // number of products per load
@@ -15,10 +15,10 @@ const ShopWomens = () => {
 
     // transform current products 
     const transformProducts = () => {
-        let sortedProducts = [...womensProducts];
+        let sortedProducts = [...accessories];
 
         if (sort === ' ') {
-            sortedProducts = womensProducts;
+            sortedProducts = accessories;
         }
 
         if (sort === true) {
@@ -34,7 +34,7 @@ const ShopWomens = () => {
         }
 
         if (searchQuery) {
-            sortedProducts = womensProducts.filter(prod => prod.name.toLowerCase().includes(searchQuery.toLowerCase()))
+            sortedProducts = accessories.filter(prod => prod.name.toLowerCase().includes(searchQuery.toLowerCase()))
         }
 
         return sortedProducts;
@@ -52,11 +52,11 @@ const ShopWomens = () => {
                     return <SingleProduct key={prod.id} {...prod} product={prod} />
 
                 })}
-                {addProducts >= womensProducts.length && <ScrollToTopBtn />}
+                {addProducts >= accessories.length && <ScrollToTopBtn />}
             </div>
-            {!searchQuery && <AddMoreBtn setAddProducts={setAddProducts} addProducts={addProducts} products={womensProducts} />}
+            {!searchQuery && <AddMoreBtn setAddProducts={setAddProducts} addProducts={addProducts} products={accessories} />}
         </section>
     )
 }
 
-export default ShopWomens;
+export default ShopAccessories;

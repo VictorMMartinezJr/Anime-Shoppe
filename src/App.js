@@ -5,6 +5,7 @@ import Navbar from './components/Navbar/Navbar';
 import ShopAll from './components/ShopPages/ShopAll';
 import ShopMens from './components/ShopPages/ShopMens';
 import ShopWomens from './components/ShopPages/ShopWomens';
+import ShopAccessories from './components/ShopPages/ShopAccessories';
 
 function App() {
   return (
@@ -21,6 +22,9 @@ function App() {
             </Route>
             <Route exact path='/womens'>
               <ShopWomens />
+            </Route>
+            <Route exact path='/accessories'>
+              <ShopAccessories />
             </Route>
           </Switch>
         </Context>
