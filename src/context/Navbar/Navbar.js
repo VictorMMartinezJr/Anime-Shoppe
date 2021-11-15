@@ -1,6 +1,6 @@
 import './Navbar.css';
 import { useContext, useState } from 'react';
-import { Cart } from '../../context/Context';
+import { Cart } from '../Context';
 import { Link } from 'react-router-dom';
 
 const Navbar = () => {
