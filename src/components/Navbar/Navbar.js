@@ -58,32 +58,32 @@ const Navbar = () => {
                 </div>
                 <ul className={burgerActive ? 'nav-links nav-active' : 'nav-links'}>
                     <Link to='/' style={{ color: '#fff', textDecoration: 'none' }} className={"nav-link"}>
-                        <li onClick={() => {
+                        <li role={'presentation'} onClick={() => {
                             productDispatch({ type: 'SORT-BY-PRICE', payload: ' ' });
                             productDispatch({ type: 'FILTER-BY-SEARCH', payload: '' });
                             setBurgerActive(!burgerActive)
-                        }} role={'presentation'}>All</li>
+                        }}>All</li>
                     </Link>
                     <Link to='/mens' style={{ color: '#fff', textDecoration: 'none' }} className="nav-link">
-                        <li onClick={() => {
+                        <li role={'presentation'} onClick={() => {
                             productDispatch({ type: 'SORT-BY-PRICE', payload: ' ' });
                             productDispatch({ type: 'FILTER-BY-SEARCH', payload: '' });
                             setBurgerActive(!burgerActive)
-                        }} role={'presentation'}>Mens</li>
+                        }}>Mens</li>
                     </Link>
                     <Link to='/womens' style={{ color: '#fff', textDecoration: 'none' }} className="nav-link">
-                        <li onClick={() => {
+                        <li role={'presentation'} onClick={() => {
                             productDispatch({ type: 'SORT-BY-PRICE', payload: ' ' });
                             productDispatch({ type: 'FILTER-BY-SEARCH', payload: '' });
                             setBurgerActive(!burgerActive)
-                        }} role={'presentation'}>Womens</li>
+                        }}>Womens</li>
                     </Link>
                     <Link to='/accessories' style={{ color: '#fff', textDecoration: 'none' }} className="nav-link">
-                        <li onClick={() => {
+                        <li role={'presentation'} onClick={() => {
                             productDispatch({ type: 'SORT-BY-PRICE', payload: ' ' });
                             productDispatch({ type: 'FILTER-BY-SEARCH', payload: '' });
                             setBurgerActive(!burgerActive)
-                        }} role={'presentation'}>Accessories</li>
+                        }}>Accessories</li>
                     </Link>
                 </ul>
             </div>
