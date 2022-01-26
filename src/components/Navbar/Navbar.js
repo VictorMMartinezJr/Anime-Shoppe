@@ -62,28 +62,28 @@ const Navbar = () => {
                             productDispatch({ type: 'SORT-BY-PRICE', payload: ' ' });
                             productDispatch({ type: 'FILTER-BY-SEARCH', payload: '' });
                             setBurgerActive(!burgerActive)
-                        }}>All</li>
+                        }} role={'presentation'}>All</li>
                     </Link>
                     <Link to='/mens' style={{ color: '#fff', textDecoration: 'none' }} className="nav-link">
                         <li onClick={() => {
                             productDispatch({ type: 'SORT-BY-PRICE', payload: ' ' });
                             productDispatch({ type: 'FILTER-BY-SEARCH', payload: '' });
                             setBurgerActive(!burgerActive)
-                        }}>Mens</li>
+                        }} role={'presentation'}>Mens</li>
                     </Link>
                     <Link to='/womens' style={{ color: '#fff', textDecoration: 'none' }} className="nav-link">
                         <li onClick={() => {
                             productDispatch({ type: 'SORT-BY-PRICE', payload: ' ' });
                             productDispatch({ type: 'FILTER-BY-SEARCH', payload: '' });
                             setBurgerActive(!burgerActive)
-                        }}>Womens</li>
+                        }} role={'presentation'}>Womens</li>
                     </Link>
                     <Link to='/accessories' style={{ color: '#fff', textDecoration: 'none' }} className="nav-link">
                         <li onClick={() => {
                             productDispatch({ type: 'SORT-BY-PRICE', payload: ' ' });
                             productDispatch({ type: 'FILTER-BY-SEARCH', payload: '' });
                             setBurgerActive(!burgerActive)
-                        }}>Accessories</li>
+                        }} role={'presentation'}>Accessories</li>
                     </Link>
                 </ul>
             </div>
