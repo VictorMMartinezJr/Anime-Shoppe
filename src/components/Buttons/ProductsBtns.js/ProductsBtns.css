@@ -1,0 +1,22 @@
+.add-to-cart-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background: #0563d6;
+  color: #f5f5f5;
+}
+.add-to-cart-disabled {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background: #121212;
+  pointer-events: none;
+  color: #f5f5f5;
+}
+.remove-from-cart-btn {
+  border: none;
+  border-radius: 5px;
+  padding: 0.5rem 1rem;
+  background: #da1212;
+  color: #f5f5f5;
+}
