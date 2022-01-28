@@ -1,6 +1,6 @@
+import './Shop.css';
 import { useContext, useState } from 'react';
 import { Cart } from '../../context/Context';
-import './Shop.css';
 import SingleProduct from '../SingleProduct/SingleProduct';
 import AddMoreBtn from '../Buttons/AddMoreBtn';
 import ScrollToTopBtn from '../Buttons/ScrollToTop';
@@ -13,7 +13,7 @@ const ShopAccessories = () => {
     // number of products per load
     const [addProducts, setAddProducts] = useState(8);
 
-    // transform current products 
+    // transform current products depending on context
     const transformProducts = () => {
         let sortedProducts = [...accessories];
 

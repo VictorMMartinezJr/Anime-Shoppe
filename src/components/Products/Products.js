@@ -12,7 +12,7 @@ export const allProducts = [
         id: 2,
         name: 'Demon Slayer Grey T-Shirt',
         price: '14.99',
-        inStock: true,
+        inStock: false,
         fastDelivery: true,
         img: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Demon-Slayer-Grey-T-Shirt-_351401-front-US.jpg",
         imgHover: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Demon-Slayer-Grey-T-Shirt-_351401-alt1-US.jpg"
@@ -20,7 +20,7 @@ export const allProducts = [
     {
         id: 3,
         name: 'Demon Slayer: Kimetsu No Yaiba Trio Hoodie',
-        price: '44.97',
+        price: '19.97',
         inStock: true,
         fastDelivery: true,
         img: "https://hottopic.scene7.com/is/image/HotTopic/15552013_hi?$productMainDesktop$",
@@ -38,8 +38,8 @@ export const allProducts = [
     {
         id: 20,
         name: 'Hunter x Hunter Hisoka Eye Lavender T-Shirt',
-        price: '29.95',
-        inStock: true,
+        price: '11.95',
+        inStock: false,
         fastDelivery: true,
         img: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Hisoka-Eye-Lavender-T-Shirt-_348940-front-US.jpg",
         imgHover: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Hisoka-Eye-Lavender-T-Shirt-_348940-back-US.jpg"
@@ -66,7 +66,7 @@ export const allProducts = [
         id: 45,
         name: 'Funko POP! Naruto Pain Vinyl Figure',
         price: '11.99',
-        inStock: true,
+        inStock: false,
         fastDelivery: true,
         img: "https://media.gamestop.com/i/gamestop/11102411/Funko-POP-Animation-Naruto-Pain-5-in-Vinyl-Figure?$pdp2x$",
         imgHover: "https://i.ebayimg.com/images/g/bZEAAOSw9Z1gfc1U/s-l400.jpg"
@@ -147,7 +147,7 @@ export const allProducts = [
         id: 47,
         name: 'Funko Pop! Inuyasha Yoko Kurama Vinyl Figure',
         price: '12.50',
-        inStock: true,
+        inStock: false,
         fastDelivery: false,
         img: "https://hottopic.scene7.com/is/image/HotTopic/13735806_hi?$productMainDesktop$",
         imgHover: "https://hottopic.scene7.com/is/image/HotTopic/13735806_av1?$productMainDesktop$"
@@ -164,7 +164,7 @@ export const allProducts = [
         id: 26,
         name: 'InuYasha Kagome Red Girls Baby Hoodie',
         price: '35.99',
-        inStock: true,
+        inStock: false,
         fastDelivery: true,
         img: "https://hottopic.scene7.com/is/image/HotTopic/15631797_hi?$productMainDesktop$",
         imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15631797_av2?$productMainDesktop$"
@@ -182,7 +182,7 @@ export const allProducts = [
         id: 7,
         name: 'Hunter X Hunter Multi Tie-Dye T-Shirt',
         price: '28.99',
-        inStock: true,
+        inStock: false,
         fastDelivery: true,
         img: "https://hottopic.scene7.com/is/image/HotTopic/15339525_hi?$productMainDesktop$",
         imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15339525_av1?$productMainDesktop$"
@@ -272,7 +272,7 @@ export const allProducts = [
         id: 29,
         name: 'Naruto: Sakura Tea Tie-Dye Girls T-Shirt',
         price: '18.91',
-        inStock: true,
+        inStock: false,
         fastDelivery: false,
         img: "https://hottopic.scene7.com/is/image/HotTopic/16461426_hi?$productMainDesktop$",
         imgHover: "https://hottopic.scene7.com/is/image/HotTopic/16461426_av1?$productMainDesktop$"
@@ -443,7 +443,7 @@ export const allProducts = [
         id: 17,
         name: 'Attack On Titan Season 1 Poster T-Shirt',
         price: '28.99',
-        inStock: true,
+        inStock: false,
         fastDelivery: true,
         img: "https://hottopic.scene7.com/is/image/HotTopic/14334256_hi?$productMainDesktop$",
         imgHover: "https://hottopic.scene7.com/is/image/HotTopic/14334256_av1?$productMainDesktop$"
@@ -542,7 +542,7 @@ export const allProducts = [
         id: 61,
         name: 'Hunter X Hunter Group Chibi Girls Sleep Set',
         price: '14.99',
-        inStock: true,
+        inStock: false,
         fastDelivery: true,
         img: "https://hottopic.scene7.com/is/image/HotTopic/15415371_hi?$productMainDesktop$",
         imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15415371_av1?$productMainDesktop$"

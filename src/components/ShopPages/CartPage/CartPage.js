@@ -1,16 +1,15 @@
+import './CartPage.css';
 import { useContext, useState, useEffect } from 'react';
 import { Cart } from '../../../context/Context';
-import './CartPage.css';
 
 const CartPage = () => {
     const { state: { cart }, dispatch } = useContext(Cart);
     const [total, setTotal] = useState();
-
-
+    // Get total for all products in cart
     const getTotal = (arr) => {
         setTotal((arr.reduce((acc, curr) => acc + Number(curr.price), 0)).toFixed(2))
     }
-
+    // Get total on page load
     useEffect(() => {
         getTotal(cart)
     }, [cart])
@@ -30,12 +29,9 @@ const CartPage = () => {
                             </span>
                             <p onClick={() => dispatch({ type: 'REMOVE-FROM-CART', payload: prod })} style={{ textDecoration: 'underline', cursor: 'pointer' }}>Remove</p>
                         </div>
-
                     </div>
-
                 })}
             </section>
-
             <section className='checkout'>
                 <div className='checkout-content'>
                     <p className='checkout-header'>Order Summary</p>
@@ -58,9 +54,8 @@ const CartPage = () => {
                     <div className='line-break'></div>
                 </div>
             </section>
-
         </div>
     )
 }
 
-export default CartPage
+export default CartPage;

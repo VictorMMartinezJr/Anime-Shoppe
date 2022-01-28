@@ -17,7 +17,6 @@ export const Context = ({ children }) => {
             {children}
         </Cart.Provider>
     )
-
 }
 
-export default Context
+export default Context;
