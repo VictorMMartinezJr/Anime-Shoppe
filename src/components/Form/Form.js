@@ -1,8 +1,10 @@
 import './Form.css';
 import SortBtn from '../Buttons/Sort/SortBtn';
 import { useState } from 'react';
+import {GoSearch} from 'react-icons/go';
+import {AiFillCloseCircle} from 'react-icons/ai';
 
-const Form = ({ productDispatch, searchQuery }) => {
+const Form = ({ productDispatch }) => {
     // State for input field text
     const [searchTerm, setSearchTerm] = useState('');
 
@@ -21,10 +23,10 @@ const Form = ({ productDispatch, searchQuery }) => {
                         setSearchTerm(e.target.value);
                     }} />
             {/* If search term exists, show search icon, else show 'X' icon */}
-                {searchTerm ? <i onClick={() => {
+                {searchTerm ? <AiFillCloseCircle className='form-icon'  onClick={() => {
                     setSearchTerm('')
                     productDispatch({ type: 'FILTER-BY-SEARCH', payload: '' })
-                }} className="fas fa-times-circle" style={{ cursor: 'pointer' }}></i> : <i className="fas fa-search"></i>}
+                }} style={{ cursor: 'pointer' }} /> : <GoSearch className='form-icon' />}
             </form>
             <SortBtn productDispatch={productDispatch} />
         </div>

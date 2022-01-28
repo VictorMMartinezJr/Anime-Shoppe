@@ -22,7 +22,7 @@
   border: 2px solid #000;
   transition: all 0.2s ease-in-out;
 }
-.form i {
+.form-icon {
   font-size: 1.2rem;
   position: absolute;
   right: 10px;

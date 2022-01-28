@@ -74,6 +74,8 @@
 }
 .dropdown-btn {
   padding: 0.5rem 1rem;
+  display: flex;
+  align-items: center;
 }
 .dropdown-items {
   position: absolute;
@@ -219,7 +221,7 @@
   .nav-img {
     height: 50px;
   }
-  .dropdown i {
+  .dropdown-icon {
     font-size: 1rem;
   }
   .dropdown-btn {

@@ -1,3 +1,5 @@
+import {BsFillArrowUpCircleFill} from 'react-icons/bs';
+
 const ScrollToTopBtn = () => {
     const scrollToTop = () => {
         window.scroll(0, 0)
@@ -5,7 +7,7 @@ const ScrollToTopBtn = () => {
 
     return (
         <div className='back-to-top' onClick={scrollToTop}>
-            <i className="fas fa-arrow-circle-up"></i>
+            <BsFillArrowUpCircleFill style={{fontSize: '2rem'}} className="fas fa-arrow-circle-up" />
             <p>Back to top</p>
         </div>
     )

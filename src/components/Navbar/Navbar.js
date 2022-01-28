@@ -3,6 +3,8 @@ import kakashi from '../../assets/kakashi.webp';
 import { useContext, useState } from 'react';
 import { Cart } from '../../context/Context';
 import { Link } from 'react-router-dom';
+import {BsCartFill} from 'react-icons/bs';
+import {FaTrashAlt} from 'react-icons/fa';
 
 const Navbar = () => {
     const { state: { cart }, dispatch, productDispatch } = useContext(Cart);
@@ -25,7 +27,7 @@ const Navbar = () => {
                         setDropdownActive(!dropdownActive);
                         setBurgerActive(false);
                     }}>
-                        <i className="fas fa-shopping-cart" style={{ marginRight: '.5rem' }} />
+                        <BsCartFill className="dropdown-btn-icon" style={{ marginRight: '.5rem' }} />
                         {cart.length}
                     </div>
                     {cart.length < 1 ?
@@ -41,7 +43,7 @@ const Navbar = () => {
                                         ${prod.price}
                                     </span>
 
-                                    <i onClick={() => dispatch({ type: 'REMOVE-FROM-CART', payload: prod })} className="fas fa-trash-alt" style={{ cursor: 'pointer', fontSize: '1.2rem' }}></i>
+                                    <FaTrashAlt onClick={() => dispatch({ type: 'REMOVE-FROM-CART', payload: prod })} className="fas fa-trash-alt" style={{ cursor: 'pointer', fontSize: '1.2rem' }} />
                                 </div>
                             })}
                             <Link to='/cart'>
