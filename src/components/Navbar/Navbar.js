@@ -1,5 +1,5 @@
 import './Navbar.css';
-import kakashi from '../../assets/kakashi.png';
+import kakashi from '../../assets/kakashi.webp';
 import { useContext, useState } from 'react';
 import { Cart } from '../../context/Context';
 import { Link } from 'react-router-dom';
