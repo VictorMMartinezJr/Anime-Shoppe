@@ -1,4 +1,5 @@
 import './Navbar.css';
+import kakashi from '../../assets/kakashi.png';
 import { useContext, useState } from 'react';
 import { Cart } from '../../context/Context';
 import { Link } from 'react-router-dom';
@@ -14,14 +15,17 @@ const Navbar = () => {
                 <Link to='/' style={{
                     cursor: 'pointer', color: '#000', textDecoration: 'none'
                 }}>
-                    <img className='nav-img' src="https://marcelinethinks.files.wordpress.com/2015/11/anime-logo-square.png?w=952" alt="" />
+                    <span className='nav-header'>
+                        <h1 className='nav-h1'>ANIME ATTIRE</h1>
+                        <img className='nav-img' src={kakashi} alt="kakashi-logo" />
+                    </span>
                 </Link>
                 <div className='dropdown'>
                     <div className='dropdown-btn' onClick={() => {
                         setDropdownActive(!dropdownActive);
                         setBurgerActive(false);
                     }}>
-                        <i className="fas fa-shopping-cart" style={{ marginRight: '.5rem' }}></i>
+                        <i className="fas fa-shopping-cart" style={{ marginRight: '.5rem' }} />
                         {cart.length}
                     </div>
                     {cart.length < 1 ?
