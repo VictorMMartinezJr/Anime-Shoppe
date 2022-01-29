@@ -4,6 +4,7 @@
   padding: 0.5rem 1rem;
   background: #0563d6;
   color: #f5f5f5;
+  cursor: pointer;
 }
 .add-to-cart-disabled {
   border: none;
@@ -19,4 +20,5 @@
   padding: 0.5rem 1rem;
   background: #da1212;
   color: #f5f5f5;
+  cursor: pointer;
 }

@@ -56,7 +56,7 @@ export const allProducts = [
     {
         id: 44,
         name: 'Funko POP! Naruto: Rock Lee',
-        price: '120.99',
+        price: '11.99',
         inStock: true,
         fastDelivery: false,
         img: './assets/rocklee-funko.jpg',
@@ -919,7 +919,7 @@ export const accessories = [
     {
         id: 44,
         name: 'Funko POP! Naruto: Rock Lee',
-        price: '120.99',
+        price: '11.99',
         inStock: true,
         fastDelivery: false,
         img: './assets/rocklee-funko.jpg',

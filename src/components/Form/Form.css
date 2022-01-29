@@ -26,7 +26,7 @@
   font-size: 1.2rem;
   position: absolute;
   right: 10px;
-  bottom: 8px;
+  bottom: 5px;
 }
 /* Media queries */
 @media screen and (max-width: 1500px) {
