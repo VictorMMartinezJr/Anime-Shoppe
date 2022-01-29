@@ -1,5 +1,4 @@
 import './Navbar.css';
-import kakashi from '../../assets/kakashi.webp';
 import { useContext, useState } from 'react';
 import { Cart } from '../../context/Context';
 import { Link } from 'react-router-dom';
@@ -19,7 +18,8 @@ const Navbar = () => {
                 }}>
                     <span className='nav-header'>
                         <h1 className='nav-h1'>ANIME ATTIRE</h1>
-                        <img className='nav-img' src={kakashi} alt="kakashi-logo" />
+                        <img className='nav-img' src='./assets/kakashi-logo.png'
+                        alt="kakashi-logo" />
                     </span>
                 </Link>
                 <div className='dropdown'>

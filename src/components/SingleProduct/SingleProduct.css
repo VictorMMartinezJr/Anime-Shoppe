@@ -10,6 +10,7 @@
 }
 .product-img {
   height: 300px;
+  width: 300px;
   object-fit: contain;
   border-radius: 10px;
   cursor: pointer;
@@ -49,7 +50,7 @@
   text-transform: uppercase;
 }
 /* Media queries */
-@media screen and (max-width: 541px) {
+@media screen and (max-width: 540px) {
   .product {
     height: auto;
     max-width: 185px;
@@ -76,9 +77,6 @@
 @media screen and (max-width: 400px) {
   .product {
     max-width: 145px;
-  }
-  .product-img {
-    max-width: 100%;
   }
   .product-info {
     width: 100%;

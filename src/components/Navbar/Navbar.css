@@ -218,6 +218,9 @@
   }
 }
 @media screen and (max-width: 360px) {
+  .nav-h1 {
+    font-size: 1.5rem;
+  }
   .nav-img {
     height: 50px;
   }
@@ -233,7 +236,7 @@
 }
 @media screen and (max-width: 320px) {
   .nav-h1 {
-    font-size: 1.3rem;
+    font-size: 1.2rem;
   }
   .dropdown-items {
     width: 90vw;

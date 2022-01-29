@@ -5,35 +5,35 @@ export const allProducts = [
         price: '70.00',
         inStock: true,
         fastDelivery: false,
-        img: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Killua-Eye-Black-Hoodie-_339023-front-US.jpg",
-        imgHover: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Killua-Eye-Black-Hoodie-_339023-back-US.jpg"
+        img: './assets/killua-hoodie.jpg',
+        imgHover: "./assets/killua-hoodie-alt.jpg"
     },
     {
         id: 2,
-        name: 'Demon Slayer Grey T-Shirt',
+        name: 'Demon Slayer Back to Back T-Shirt',
         price: '14.99',
         inStock: false,
         fastDelivery: true,
-        img: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Demon-Slayer-Grey-T-Shirt-_351401-front-US.jpg",
-        imgHover: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Demon-Slayer-Grey-T-Shirt-_351401-alt1-US.jpg"
+        img: './assets/demon-slayer-b2b.jpg',
+        imgHover: './assets/demon-slayer-b2b-alt.jpg'
     },
     {
         id: 3,
-        name: 'Demon Slayer: Kimetsu No Yaiba Trio Hoodie',
-        price: '19.97',
+        name: 'Naruto Madara Uchiha Hoodie',
+        price: '84.95',
         inStock: true,
         fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15552013_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15552013_av1?$productMainDesktop$"
+        img: './assets/madara-hoodie.jpg',
+        imgHover: './assets/madara-hoodie-alt.jpg'
     },
     {
         id: 42,
-        name: 'Demon Slayer: Zenitsu Figure with LED Base',
-        price: '80.00',
+        name: 'Demon Slayer Vol.11 Tengen Uzui Figure',
+        price: '28.47',
         inStock: true,
         fastDelivery: true,
-        img: "https://ae01.alicdn.com/kf/H9bcbfaf5b64e4ef98b2dcc9338c74e1cI/Anime-Figure-Action-Demon-Slayer-Zenitsu-DIY-LED-Set-Ichiban-Kimetsu-no-Yaiba-Figures-Lamp-PVC.jpg",
-        imgHover: "https://ae01.alicdn.com/kf/Hce5d7cd464554b888a58da8dbda9f81dZ/Demon-Slayer-Figure-Agatsuma-Zenitsu-PVC-Model-with-LED-Wing-Base-Anime-Kimetsu-no-Yaiba-Action.jpg"
+        img: './assets/tengenuzui-figure.jpg',
+        imgHover: './assets/tengenuzui-figure-alt.jpg'
     },
     {
         id: 20,
@@ -601,26 +601,26 @@ export const mensProducts = [
         price: '70.00',
         inStock: true,
         fastDelivery: false,
-        img: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Killua-Eye-Black-Hoodie-_339023-front-US.jpg",
-        imgHover: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Killua-Eye-Black-Hoodie-_339023-back-US.jpg"
+        img: './assets/killua-hoodie.jpg',
+        imgHover: "./assets/killua-hoodie-alt.jpg"
     },
     {
         id: 2,
-        name: 'Demon Slayer Grey T-Shirt',
+        name: 'Demon Slayer Back to Back T-Shirt',
         price: '14.99',
-        inStock: true,
+        inStock: false,
         fastDelivery: true,
-        img: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Demon-Slayer-Grey-T-Shirt-_351401-front-US.jpg",
-        imgHover: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Demon-Slayer-Grey-T-Shirt-_351401-alt1-US.jpg"
+        img: './assets/demon-slayer-b2b.jpg',
+        imgHover: './assets/demon-slayer-b2b-alt.jpg'
     },
     {
         id: 3,
-        name: 'Demon Slayer: Kimetsu No Yaiba Trio Hoodie',
-        price: '44.97',
+        name: 'Naruto Madara Uchiha Hoodie',
+        price: '84.95',
         inStock: true,
         fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15552013_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15552013_av1?$productMainDesktop$"
+        img: './assets/madara-hoodie.jpg',
+        imgHover: './assets/madara-hoodie-alt.jpg'
     },
     {
         id: 4,
@@ -693,78 +693,6 @@ export const mensProducts = [
         fastDelivery: true,
         img: "https://hottopic.scene7.com/is/image/HotTopic/15639932_hi?$productMainDesktop$",
         imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15639932_av1?$productMainDesktop$"
-    },
-    {
-        id: 12,
-        name: 'Disney Mickey Mouse Vampire Tie-Dye Hoodie',
-        price: '40.00',
-        inStock: true,
-        fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15436307_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15436307_av1?$productMainDesktop$"
-    },
-    {
-        id: 13,
-        name: 'Juice WRLD Anime T-Shirt',
-        price: '19.99',
-        inStock: true,
-        fastDelivery: false,
-        img: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/999-Club-by-Juice-WRLD-Conversation-Motorsport-White-Long-Sleeve-T-Shirt-_347558-front-US.jpg",
-        imgHover: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/999-Club-by-Juice-WRLD-Conversation-Motorsport-White-Long-Sleeve-T-Shirt-_347558-back-US.jpg"
-    },
-    {
-        id: 14,
-        name: 'Hunter X Hunter Killua Skateboard Tie-Dye Long-Sleeve T-Shirt',
-        price: '38.95',
-        inStock: true,
-        fastDelivery: false,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15555800_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15555800_av1?$productMainDesktop$"
-    },
-    {
-        id: 15,
-        name: 'Studio Ghibli Spirited Away No-Face Food Hoodie',
-        price: '49.99',
-        inStock: true,
-        fastDelivery: false,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15644202_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15644202_av1?$productMainDesktop$"
-    },
-    {
-        id: 16,
-        name: 'My Hero Academia Todoroki Fire & Ice Long-Sleeve T-Shirt',
-        price: '26.32',
-        inStock: true,
-        fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15554782_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15554782_av1?$productMainDesktop$"
-    },
-    {
-        id: 17,
-        name: 'Attack On Titan Season 1 Poster T-Shirt',
-        price: '28.99',
-        inStock: true,
-        fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/14334256_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/14334256_av1?$productMainDesktop$"
-    },
-    {
-        id: 18,
-        name: 'Haikyu Side Logo Pajama Pants',
-        price: '18.32',
-        inStock: true,
-        fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15639932_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15639932_av1?$productMainDesktop$"
-    },
-    {
-        id: 19,
-        name: 'Naruto Shippuden Itachi Birds T-Shirt',
-        price: '26.99',
-        inStock: true,
-        fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/11811092_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/11811092_av1?$productMainDesktop$"
     },
 ]
 
@@ -972,12 +900,12 @@ export const womensProducts = [
 export const accessories = [
     {
         id: 42,
-        name: 'Demon Slayer: Zenitsu Figure with LED Base',
-        price: '80.00',
+        name: 'Demon Slayer Vol.11 Tengen Uzui Figure',
+        price: '28.47',
         inStock: true,
         fastDelivery: true,
-        img: "https://ae01.alicdn.com/kf/H9bcbfaf5b64e4ef98b2dcc9338c74e1cI/Anime-Figure-Action-Demon-Slayer-Zenitsu-DIY-LED-Set-Ichiban-Kimetsu-no-Yaiba-Figures-Lamp-PVC.jpg",
-        imgHover: "https://ae01.alicdn.com/kf/Hce5d7cd464554b888a58da8dbda9f81dZ/Demon-Slayer-Figure-Agatsuma-Zenitsu-PVC-Model-with-LED-Wing-Base-Anime-Kimetsu-no-Yaiba-Action.jpg"
+        img: './assets/tengenuzui-figure.jpg',
+        imgHover: './assets/tengenuzui-figure-alt.jpg'
     },
     {
         id: 43,
