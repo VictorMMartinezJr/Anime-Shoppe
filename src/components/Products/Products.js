@@ -38,47 +38,47 @@ export const allProducts = [
     {
         id: 20,
         name: 'Hunter x Hunter Hisoka Eye Lavender T-Shirt',
-        price: '11.95',
-        inStock: false,
+        price: '29.95',
+        inStock: true,
         fastDelivery: true,
-        img: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Hisoka-Eye-Lavender-T-Shirt-_348940-front-US.jpg",
-        imgHover: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Hisoka-Eye-Lavender-T-Shirt-_348940-back-US.jpg"
+        img: "./assets/hisoka-tee.jpg",
+        imgHover: "./assets/hisoka-tee-alt.jpg"
     },
     {
         id: 43,
-        name: 'Demon Slayer: Rengoku 1/8 Scale Figure',
-        price: '80.99',
+        name: 'Naruto: Minato Action Figure',
+        price: '49.99',
         inStock: true,
         fastDelivery: true,
-        img: "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/aniplex-of-america-inc-ach-pvc-scale-figures-demon-slayer-the-movie-mugen-train-kyojuro-rengoku-1-8-scale-figure-17260995182636_2000x2000.jpg?v=1633117016",
-        imgHover: "https://store.aniplexusa.com/demonslayer/kyojuro-rengoku-figure/images/2.jpg"
+        img: "./assets/minato-figure.jpg",
+        imgHover: "./assets/minato-figure-alt.jpg"
     },
     {
         id: 44,
-        name: 'Naruto: Rock Lee GKModel Figure',
+        name: 'Funko POP! Naruto: Rock Lee',
         price: '120.99',
         inStock: true,
         fastDelivery: false,
-        img: "https://i.ebayimg.com/images/g/AnEAAOSwHMld1NZR/s-l1600.jpg",
-        imgHover: "https://i.ebayimg.com/images/g/wR4AAOSwyjVenmfD/s-l300.jpg"
+        img: './assets/rocklee-funko.jpg',
+        imgHover: './assets/rocklee-funko-alt.jpg'
     },
     {
         id: 45,
-        name: 'Funko POP! Naruto Pain Vinyl Figure',
+        name: 'Funko POP! Naruto Pain',
         price: '11.99',
         inStock: false,
         fastDelivery: true,
-        img: "https://media.gamestop.com/i/gamestop/11102411/Funko-POP-Animation-Naruto-Pain-5-in-Vinyl-Figure?$pdp2x$",
-        imgHover: "https://i.ebayimg.com/images/g/bZEAAOSw9Z1gfc1U/s-l400.jpg"
+        img: "./assets/pain-funko.jpg",
+        imgHover: "./assets/pain-funko-alt.jpg"
     },
     {
         id: 4,
-        name: 'Demon Slayer: Kimetsu No Yaiba Group Poster T-Shirt',
+        name: 'Naruto: Sasuke v Kakashi T-Shirt',
         price: '18.32',
         inStock: true,
         fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/13113726_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/13113726_av1?$productMainDesktop$"
+        img: './assets/sasuke-tee.jpg',
+        imgHover: './assets/sasuke-tee-alt.jpg'
     },
     {
         id: 5,
@@ -91,21 +91,21 @@ export const allProducts = [
     },
     {
         id: 21,
-        name: 'Studio Ghibli Ponyo Color Block Girls Hoodie',
-        price: '49.99',
+        name: 'Jujutsu Kaisen Squad Black Hoodie',
+        price: '54.95',
         inStock: true,
         fastDelivery: false,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15650852_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15650852_av1?$productMainDesktop$"
+        img: './assets/jujustu-kaisen-hoodie.jpg',
+        imgHover: "./assets/jujustu-kaisen-hoodie-alt.jpg"
     },
     {
         id: 22,
-        name: 'Naruto Shippuden Nyanto! The Big Nyaruto Series Naruto Tie-Dye T-Shirt',
+        name: 'Vitriol Jamison Anime Black Hoodie',
         price: '22.95',
         inStock: true,
         fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15237780_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15237780_av1?$productMainDesktop$"
+        img: "./assets/vitriol-hoodie.jpg",
+        imgHover: "./assets/vitriol-hoodie-alt.jpg"
     },
     {
         id: 46,
@@ -118,12 +118,12 @@ export const allProducts = [
     },
     {
         id: 23,
-        name: 'Hunter X Hunter Gon Color-Block Girls Long-Sleeve T-Shirt Plus Size',
-        price: '27.99',
+        name: 'Hello Kitty Balloons Blue Tie Dye Hoodie',
+        price: '79.99',
         inStock: true,
         fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15687019_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15687019_av2?$productMainDesktop$"
+        img: './assets/hellokitty-hoodie.jpg',
+        imgHover: './assets/hellokitty-hoodie-alt.jpg'
     },
     {
         id: 24,
@@ -624,12 +624,12 @@ export const mensProducts = [
     },
     {
         id: 4,
-        name: 'Demon Slayer: Kimetsu No Yaiba Group Poster T-Shirt',
+        name: 'Naruto: Sasuke v Kakashi T-Shirt',
         price: '18.32',
         inStock: true,
         fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/13113726_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/13113726_av1?$productMainDesktop$"
+        img: './assets/sasuke-tee.jpg',
+        imgHover: './assets/sasuke-tee-alt.jpg'
     },
     {
         id: 5,
@@ -703,35 +703,35 @@ export const womensProducts = [
         price: '29.95',
         inStock: true,
         fastDelivery: true,
-        img: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Hisoka-Eye-Lavender-T-Shirt-_348940-front-US.jpg",
-        imgHover: "https://scene7.zumiez.com/is/image/zumiez/product_main_medium_2x/Hypland-x-Hunter-x-Hunter-Hisoka-Eye-Lavender-T-Shirt-_348940-back-US.jpg"
+        img: "./assets/hisoka-tee.jpg",
+        imgHover: "./assets/hisoka-tee-alt.jpg"
     },
     {
         id: 21,
-        name: 'Studio Ghibli Ponyo Color- Block Girls Hoodie',
-        price: '49.99',
+        name: 'Jujutsu Kaisen Squad Black Hoodie',
+        price: '54.95',
         inStock: true,
         fastDelivery: false,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15650852_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15650852_av1?$productMainDesktop$"
+        img: './assets/jujustu-kaisen-hoodie.jpg',
+        imgHover: "./assets/jujustu-kaisen-hoodie-alt.jpg"
     },
     {
         id: 22,
-        name: 'Naruto Shippuden Nyanto! The Big Nyaruto Series Naruto Tie-Dye T-Shirt',
+        name: 'Vitriol Jamison Anime Black Hoodie',
         price: '22.95',
         inStock: true,
         fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15237780_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15237780_av1?$productMainDesktop$"
+        img: "./assets/vitriol-hoodie.jpg",
+        imgHover: "./assets/vitriol-hoodie-alt.jpg"
     },
     {
         id: 23,
-        name: 'Hunter X Hunter Gon Color-Block Girls Long-Sleeve T-Shirt Plus Size',
-        price: '27.99',
+        name: 'Hello Kitty Balloons Blue Tie Dye Hoodie',
+        price: '79.99',
         inStock: true,
         fastDelivery: true,
-        img: "https://hottopic.scene7.com/is/image/HotTopic/15687019_hi?$productMainDesktop$",
-        imgHover: "https://hottopic.scene7.com/is/image/HotTopic/15687019_av2?$productMainDesktop$"
+        img: './assets/hellokitty-hoodie.jpg',
+        imgHover: './assets/hellokitty-hoodie-alt.jpg'
     },
     {
         id: 24,
@@ -909,30 +909,30 @@ export const accessories = [
     },
     {
         id: 43,
-        name: 'Demon Slayer: Rengoku 1/8 Scale Figure',
-        price: '80.99',
+        name: 'Naruto: Minato Action Figure',
+        price: '49.99',
         inStock: true,
         fastDelivery: true,
-        img: "https://cdn.shopify.com/s/files/1/0014/2648/9388/products/aniplex-of-america-inc-ach-pvc-scale-figures-demon-slayer-the-movie-mugen-train-kyojuro-rengoku-1-8-scale-figure-17260995182636_2000x2000.jpg?v=1633117016",
-        imgHover: "https://store.aniplexusa.com/demonslayer/kyojuro-rengoku-figure/images/2.jpg"
+        img: "./assets/minato-figure.jpg",
+        imgHover: "./assets/minato-figure-alt.jpg"
     },
     {
         id: 44,
-        name: 'Naruto: Rock Lee GKModel Figure',
+        name: 'Funko POP! Naruto: Rock Lee',
         price: '120.99',
         inStock: true,
         fastDelivery: false,
-        img: "https://i.ebayimg.com/images/g/AnEAAOSwHMld1NZR/s-l1600.jpg",
-        imgHover: "https://i.ebayimg.com/images/g/wR4AAOSwyjVenmfD/s-l300.jpg"
+        img: './assets/rocklee-funko.jpg',
+        imgHover: './assets/rocklee-funko-alt.jpg'
     },
     {
         id: 45,
-        name: 'Funko POP! Animation: Naruto Pain Vinyl Figure',
+        name: 'Funko POP! Naruto Pain',
         price: '11.99',
-        inStock: true,
+        inStock: false,
         fastDelivery: true,
-        img: "https://media.gamestop.com/i/gamestop/11102411/Funko-POP-Animation-Naruto-Pain-5-in-Vinyl-Figure?$pdp2x$",
-        imgHover: "https://i.ebayimg.com/images/g/bZEAAOSw9Z1gfc1U/s-l400.jpg"
+        img: "./assets/pain-funko.jpg",
+        imgHover: "./assets/pain-funko-alt.jpg"
     },
     {
         id: 46,
