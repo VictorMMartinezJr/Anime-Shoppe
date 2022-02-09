@@ -4,6 +4,7 @@
   align-items: center;
   justify-content: center;
   background: #f5f5f5;
+  overflow-x: hidden;
 }
 .shop-header-text {
   align-self: flex-start;
@@ -54,7 +55,7 @@
   display: none;
 }
 /* Media queries */
-@media screen and (max-width: 1500px) {
+@media screen and (max-width: 1280px) {
   .products {
     grid-template-columns: repeat(3, 1fr);
     justify-items: center;
@@ -64,14 +65,9 @@
     width: 100%;
   }
 }
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 768px) {
   .products {
     grid-template-columns: repeat(2, 1fr);
-  }
-}
-@media screen and (max-width: 541px) {
-  .shop {
-    align-items: center;
   }
 }
 @media screen and (max-width: 400px) {
