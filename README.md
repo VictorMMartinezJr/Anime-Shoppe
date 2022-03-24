@@ -11,7 +11,7 @@ Anime Shoppe is a web app built with ReactJs for an anime store. It allows users
 ![Screenshot 2021-12-01 212810](https://user-images.githubusercontent.com/93169407/144346452-409261e6-76af-4294-b1fe-aba5ac886793.png)
 ![Screenshot 2021-12-01 212852](https://user-images.githubusercontent.com/93169407/144346442-30784587-efee-484e-abef-d8508e46221b.png)
 ![Screenshot 2021-12-01 212909](https://user-images.githubusercontent.com/93169407/144346437-5f4823e1-4d83-4252-b95d-bc4436de8138.png)
-![Screenshot 2021-12-01 214417](https://user-images.githubusercontent.com/93169407/144348111-7642f281-f667-4b88-9fc9-3b715fd6e84f.png)
+![anime-attire-cart-mobile](https://user-images.githubusercontent.com/93169407/159962808-71778c7d-8093-4374-810a-cf9aa8431952.png)
 ![anime-attire-mobile](https://user-images.githubusercontent.com/93169407/159962618-ab1fd0a5-17c3-4392-bf27-4d3863a573c8.png)
 
 
